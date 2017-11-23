@@ -1,7 +1,7 @@
 bSearchIteratively = (targetArray, targetNumber) ->
-  min = 0;
-  max = targetArray.length - 1;
-  mid = null;
+  min = 0
+  max = targetArray.length - 1
+  mid = null
 
   while max >= min
     mid = Math.floor((min + max) / 2)
@@ -15,5 +15,4 @@ bSearchIteratively = (targetArray, targetNumber) ->
 
   return false
 
-
-module.exports.bSearchIteratively = bSearchIteratively;
+module.exports.bSearchIteratively = bSearchIteratively
