@@ -1,4 +1,4 @@
-expect = require('../../test-helper').expect;
+{expect} = require '../../test-helper'
 {bSearchIteratively} = require '../../../src/algorithms/search/binaryIteratively'
 
 describe 'Binary Search Iteratively', ->
