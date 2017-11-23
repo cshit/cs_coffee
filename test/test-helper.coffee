@@ -15,13 +15,14 @@ Array.prototype.equals = (array) ->
   i = 0
   l = this.length
   while  i < l
-      # Check if we have nested arrays
+    # Check if we have nested arrays
+    l = this.length
     if this[i] instanceof Array && array[i] instanceof Array
       # recurse into the nested arrays
       if !this[i].equals(array[i])
         return false
-      else if this[i] != array[i]
-        return false
+    else if this[i] != array[i]
+      return false
 
     i += 1
 
