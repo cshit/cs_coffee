@@ -27,5 +27,11 @@
     "coffeescript": "^2.0.2",
     "mocha": "^4.0.1",
     "sinon": "^4.1.2"
-  }
+  },
+  "coffeelintConfig":  {
+    "max_line_length": {
+      "name": "max_line_length",
+      "level": "ignore"
+    }
+}
 }
