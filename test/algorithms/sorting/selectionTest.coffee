@@ -9,3 +9,4 @@ describe 'Selection Sort', ->
 
   it 'equals returns false when comparing incorrectly', ->
     expect(selectionSort(sampleArray).equals([10, 2, 3, 1000, 6, 8, 9])).to.be.false
+ 
