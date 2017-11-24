@@ -1,2 +1,26 @@
-## Commad to run mocha using coffee:
-`mocha --compilers coffee:coffeescript/register`
+## Choose and practice
+
+- __cs_coffeescript__
+  - __src__
+    - __algorithms__
+      - __search__
+        - [binary.coffee](src/algorithms/search/binary.coffee)
+        - [binaryIteratively.coffee](src/algorithms/search/binaryIteratively.coffee)
+      - __sorting__
+        - [selection.coffee](src/algorithms/sorting/selection.coffee)
+    - __ds__
+      - __array__
+        - [findLowestElementsIndex.coffee](src/ds/array/findLowestElementsIndex.coffee)
+        - [swap.coffee](src/ds/array/swap.coffee)
+  - __test__
+    - __algorithms__
+      - __search__
+        - [binaryTest.coffee](test/algorithms/search/binaryTest.coffee)
+        - [binaryTestIteratively.coffee](test/algorithms/search/binaryTestIteratively.coffee)
+      - __sorting__
+        - [selectionTest.coffee](test/algorithms/sorting/selectionTest.coffee)
+    - __ds__
+      - __array__
+        - [findLowestElementIndexTest.coffee](test/ds/array/findLowestElementIndexTest.coffee)
+        - [swapTest.coffee](test/ds/array/swapTest.coffee)
+    - [test-helper.coffee](test/test-helper.coffee)
