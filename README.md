@@ -3,24 +3,32 @@
 - __cs_coffeescript__
   - __src__
     - __algorithms__
+      - __recursion__
+        - [factorial.coffee](src/algorithms/recursion/factorial.coffee)
       - __search__
         - [binary.coffee](src/algorithms/search/binary.coffee)
         - [binaryIteratively.coffee](src/algorithms/search/binaryIteratively.coffee)
       - __sorting__
+        - [insertion.coffee](src/algorithms/sorting/insertion.coffee)
         - [selection.coffee](src/algorithms/sorting/selection.coffee)
     - __ds__
       - __array__
         - [findLowestElementsIndex.coffee](src/ds/array/findLowestElementsIndex.coffee)
+        - [instert.coffee](src/ds/array/instert.coffee)
         - [swap.coffee](src/ds/array/swap.coffee)
   - __test__
     - __algorithms__
+      - __recursion__
+        - [factorialTest.coffee](test/algorithms/recursion/factorialTest.coffee)
       - __search__
         - [binaryTest.coffee](test/algorithms/search/binaryTest.coffee)
         - [binaryTestIteratively.coffee](test/algorithms/search/binaryTestIteratively.coffee)
       - __sorting__
+        - [insertionTest.coffee](test/algorithms/sorting/insertionTest.coffee)
         - [selectionTest.coffee](test/algorithms/sorting/selectionTest.coffee)
     - __ds__
       - __array__
         - [findLowestElementIndexTest.coffee](test/ds/array/findLowestElementIndexTest.coffee)
+        - [insertTest.coffee](test/ds/array/insertTest.coffee)
         - [swapTest.coffee](test/ds/array/swapTest.coffee)
     - [test-helper.coffee](test/test-helper.coffee)
