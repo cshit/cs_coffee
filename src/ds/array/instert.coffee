@@ -5,7 +5,7 @@
 # [3,5,9,10,6,8]
 # insert(sampleArray2, 3, 6)
 
-insert = (targetArray, rightIndex, value)->
+insert = (targetArray, rightIndex, value) ->
 
   i = rightIndex
   while i >= 0 && targetArray[i] > value
